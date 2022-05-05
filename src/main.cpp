@@ -1,6 +1,6 @@
 #include <Arduino.h>
 #include <WiFiManager.h>
-
+#include "strings_es.h"
 void setup() {
 
   delay(200);
