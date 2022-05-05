@@ -15,8 +15,7 @@
 
 #ifdef WIFI_MANAGER_OVERRIDE_STRINGS
     #include WIFI_MANAGER_OVERRIDE_STRINGS
-#endif
-#ifndef WIFI_MANAGER_OVERRIDE_STRINGS
+#else
 // !!! ABOVE WILL NOT WORK if you define in your sketch, must be build flag, if anyone one knows how to order includes to be able to do this it would be neat.. I have seen it done..
 
 const char WM_VERSION_STR[] PROGMEM = "v1.0.11-beta";
